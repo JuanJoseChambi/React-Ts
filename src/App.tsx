@@ -1,5 +1,7 @@
 import './App.css'
+import ContadorRed from './Components/ContadorRed'
 import Counter from './Components/Counter'
+import TimerPadre from './Components/TimerPadre'
 import Usuario from './Components/Usuario'
 
 function App() {
@@ -12,7 +14,11 @@ function App() {
 
         <Usuario/>
 
-        {/* <h2>useEffect - useRef</h2> */}
+        <h2>useEffect - useRef</h2><hr />
+        <TimerPadre/>
+
+        <h2>UseReduceer</h2> <hr />
+        <ContadorRed/>
     </>
   )
 }
