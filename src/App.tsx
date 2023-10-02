@@ -1,11 +1,19 @@
 import './App.css'
+import Counter from './Components/Counter'
+import Usuario from './Components/Usuario'
 
 function App() {
 
   return (
-    <div className='message'>
-        Hola
-    </div>
+    <>
+        <h1>React + TypeScript</h1> <hr />
+        <h1>UseState</h1>
+        <Counter/>
+
+        <Usuario/>
+
+        {/* <h2>useEffect - useRef</h2> */}
+    </>
   )
 }
 
